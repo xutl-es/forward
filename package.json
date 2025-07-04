@@ -1,6 +1,6 @@
 {
 	"name": "@xutl/forward",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Port Forwarding",
 	"type": "module",
 	"exports": {
