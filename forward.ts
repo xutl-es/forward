@@ -152,4 +152,5 @@ function setupForward(forwards: Map<string, PortForward>, listen: EndPoint, dest
 	forwards.set(id, fwd);
 }
 
-if (process.argv[1] === import.meta.filename) main();
+//@ts-expect-error
+if (import.meta.main || (process.argv[1] === import.meta.filename)) main();
