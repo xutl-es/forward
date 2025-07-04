@@ -17,8 +17,7 @@
 		"format": "biome format --write",
 		"lint": "biome lint --write",
 		"prepublish": "npm run build",
-		"postversion": "npm publish --access=public",
-		"postpublish": "git push --folow-tags"
+		"postversion": "git push --follow-tags"
 	},
 	"keywords": [
 		"TCP",
