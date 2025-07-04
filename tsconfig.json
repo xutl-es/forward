@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"declaration": true,
+		"declarationMap": false,
+		"sourceMap": false,
+		"composite": false,
+		"incremental": false,
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"rewriteRelativeImportExtensions": true,
+		"erasableSyntaxOnly": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"baseUrl": "./",
+		"paths": {},
+		"esModuleInterop": false,
+		"noEmit": false,
+		"resolveJsonModule": false
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules/**"]
+}

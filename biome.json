@@ -1,0 +1,53 @@
+{
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"defaultBranch": "main"
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single"
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab",
+		"lineWidth": 120,
+		"lineEnding": "lf"
+	},
+	"linter": {
+		"rules": {
+			"suspicious": {
+				"noAssignInExpressions": "off",
+				"noExplicitAny": "off",
+				"noControlCharactersInRegex": "off"
+			},
+			"complexity": {
+				"noExtraBooleanCast": "off",
+				"noExcessiveNestedTestSuites": "off",
+				"noForEach": "off",
+				"noStaticOnlyClass": "off",
+				"noThisInStatic": "off",
+				"noUselessCatch": "off",
+				"noUselessConstructor": "off",
+				"noUselessLabel": "off",
+				"noUselessLoneBlockStatements": "off",
+				"useArrowFunction": "off",
+				"useLiteralKeys": "off",
+				"useSimpleNumberKeys": "off"
+			},
+			"correctness": {
+				"noConstantCondition": "off",
+				"noInvalidConstructorSuper": "off",
+				"noUnsafeFinally": "off",
+				"noUnusedLabels": "off"
+			},
+			"performance": {
+				"noDelete": "off"
+			},
+			"style": {
+				"noParameterAssign": "off"
+			}
+		}
+	}
+}
